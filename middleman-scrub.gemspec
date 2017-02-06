@@ -1,9 +1,10 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
+require 'middleman-scrub/version'
 
 Gem::Specification.new do |s|
   s.name        = "middleman-scrub"
-  s.version     = "0.0.1"
+  s.version     = Middleman::Scrub::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Uchio Kondo"]
   s.email       = ["udzura@udzura.jp"]
