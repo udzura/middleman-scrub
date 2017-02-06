@@ -1,0 +1,15 @@
+language: ruby
+sudo: false
+cache: bundler
+before_script:
+  - bundle update
+rvm:
+  - 2.4.0
+  - 2.3.1
+  - 2.2.4
+
+branches:
+  only:
+    - master
+  
+script: bundle exec rake test
