@@ -4,7 +4,7 @@ require 'middleman-scrub/version'
 
 Gem::Specification.new do |s|
   s.name        = "middleman-scrub"
-  s.version     = Middleman::Scrub::VERSION
+  s.version     = MiddlemanScrub::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Uchio Kondo"]
   s.email       = ["udzura@udzura.jp"]
