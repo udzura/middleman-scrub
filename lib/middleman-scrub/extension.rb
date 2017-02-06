@@ -1,6 +1,5 @@
 # Require core library
 require 'middleman-core'
-require 'middleman-scrub/version'
 
 # Extension namespace
 class ::Middleman::Scrub < ::Middleman::Extension
@@ -37,3 +36,5 @@ class ::Middleman::Scrub < ::Middleman::Extension
     STDERR.puts(msg) if options.verbose
   end
 end
+
+require 'middleman-scrub/version'
