@@ -26,4 +26,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "cucumber", "~> 1.3"
   s.add_development_dependency "capybara"
   s.add_development_dependency "aruba", "~> 0.14"
+  s.add_development_dependency "pandoc-ruby"
+  s.add_development_dependency "kramdown"
 end

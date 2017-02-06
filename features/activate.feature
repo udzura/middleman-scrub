@@ -1,7 +1,7 @@
 Feature: middleman-scrub is activated
 
   Scenario: Activate middleman-scrub
-    Given a fixture app "sample-app"
+    Given a fixture app "empty-app"
     And a file named "config.rb" with:
       """
       activate :scrub
